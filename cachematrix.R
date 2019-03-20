@@ -1,24 +1,15 @@
-Assignment: Caching the inverse of a matrix
+## Put comments here that give an overall description of what your
+## functions do
 
-
-The function cacheSolve computes the inverse of the special “matrix” returned by makeCacheMatrix above.
+## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
 
 }
-Solution: We assume that the matrix supplied is alwaysinvertible
-Testing
-A <- matrix(c(3,5,7,9),2,2)
-> solve(A)
-       [,1]   [,2]
-[1,] -1.125  0.875
-[2,]  0.625 -0.375
+
+
+## Write a short comment describing this function
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
 }
-A1 <- makeCacheMatrix(A)
-> cacheSolve(A1)
-       [,1]   [,2]
-[1,] -1.125  0.875
-[2,]  0.625 -0.375
